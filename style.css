@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+  background-image: url(./assets/images/new.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h4{
+  color: aliceblue;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding: 30px;
+  float: left;
+}
+
+main{
+   text-align:center ;
+   color: white;
+   padding-top: 250px;
+   /* align-items: center; */
+}
+h1{
+  font-size: 60px;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+p{
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+li{
+  padding:0 30px; 
+  float: right;
+  line-height: 50px;
+  font-size: 18px;
+  color: white;
+  list-style: none;
+}
+
+li a {
+color: whitesmoke;
+}  
