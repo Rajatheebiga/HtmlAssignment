@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SouthIndian Cooking Recipes</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <section > 
+        <section>
             <nav>
                 <h4><i>Rajas Kitchen</i></h4>
                 <ol>
@@ -18,7 +20,32 @@
                     <li><a href="./index.html">Home</a></li>
                 </ol>
             </nav>
-     </header>
-    <art
+    </header>
+    <section id="request">
+        <h1><i>We are here to help you</i></h1>
+        <br>
+        <h2><u>Request the recipe</u></h2>
+        <br><br>
+        <form>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="fname" required><br><br>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lastname" required><br><br>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="number" id="phoneNumber" name="phoneNumber" required><br><br>
+            <label for="todayDate">Today Date:</label>
+            <input type="date" id="todayDate" name="todayDate" required><br><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="7" cols="50"> </textarea>
+            <br><br>
+            <input type="submit" value="Send the message">
+        </form>
+    </section>
+    <footer>
+        <p>
+            Call at 442324324 & Email at rajaskitchen@ggg.com
+        </p>
+    </footer>
 </body>
+
 </html>

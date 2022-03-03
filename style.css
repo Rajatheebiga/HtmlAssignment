@@ -39,7 +39,7 @@ color: whitesmoke;
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
-  height: 88vh;
+  height: 84vh;
 }
 #homepageIntro{
   padding-top: 180px;
@@ -62,17 +62,36 @@ h3{
   text-align: center;
   color: black;
   letter-spacing: 2px;
-  
-  /* background-image: url(./assets/images/1.png);   */
 }
 #aboutUs p{
   text-align: center;
   color: black;
   letter-spacing: 1px;
   font-size: 20px;
-  
-  /* background-image: url(./assets/images/1.png);   */
 }
 #aboutImages{
   padding-top: 100px;
+}
+/* contact */
+#request{
+  padding-top: 10px;
+  text-align: center;
+  background-image: url(./assets/images/image6.jpg); 
+  height: 84vh;
+  width: 100%;
+  color: white;
+}
+#request h2{
+  padding-top: 40px;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: antiquewhite;
+}
+footer{
+  padding: 10px;
+  font-size: large;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
 }
