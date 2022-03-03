@@ -3,43 +3,24 @@
     padding:0;
 
 }
-body{
-  background-image: url(./assets/images/new.png);
-  background-repeat: no-repeat; 
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+nav{
+  background-color: #140a00;
+  width: 100%;
+  height: 85px;
 }
-
-h4{
-  color: aliceblue;
+/* logo */
+nav h4{
+  color: white;
   letter-spacing: 2px;
   font-size: 20px;
   padding: 30px;
   float: left;
 }
-
-main{
-   text-align:center ;
-   color: white;
-   padding-top: 250px;
-   /* align-items: center; */
-}
-h1{
-  font-size: 60px;
-  font-style: italic;
-  letter-spacing: 2px;
-}
-p{
-  font-size: 30px;
-  font-style: italic;
-  letter-spacing: 1px;
-}
-
+/* nav links */
 li{
   padding:0 30px; 
   float: right;
-  line-height: 50px;
+  line-height: 85px;
   font-size: 18px;
   color: white;
   list-style: none;
@@ -48,3 +29,35 @@ li{
 li a {
 color: whitesmoke;
 }  
+
+/* homepage */
+#homepage{
+  background-image: url(./assets/images/1.png);  
+  text-align:center ;
+  color: white; 
+  margin-top: 0;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  height: 88vh;
+}
+#homepageIntro{
+  padding-top: 180px;
+}
+h1{
+  font-size: 60px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: antiquewhite;
+}
+p{
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: antiquewhite;
+}
+
+#aboutUs{
+  padding-top: 200px;
+  text-align: center;
+}
