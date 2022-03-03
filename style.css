@@ -32,7 +32,7 @@ color: whitesmoke;
 
 /* homepage */
 #homepage{
-  background-image: url(./assets/images/1.png);  
+  background-image: url(./assets/images/image1.png);  
   text-align:center ;
   color: white; 
   margin-top: 0;
@@ -95,4 +95,18 @@ footer{
   background-color: black;
   color: white;
   line-height:30px ;
+}
+
+/* recipes */
+#recipes h4{
+  font-style: italic;
+  color: #140a00;
+
+}
+#recipes h3{
+  font-style: italic;
+  color: red;
+  letter-spacing: 2px;
+  text-align: center;
+
 }
