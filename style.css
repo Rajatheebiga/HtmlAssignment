@@ -6,7 +6,7 @@
 
 nav{ background-color: #140a00;
   width: 100%;
-  height: 80px;
+  height: 10vh;
 }
 /* logo */
 nav h4{
@@ -31,53 +31,64 @@ color: whitesmoke;
 }  
 
 /* homepage */
+
 #homepage{
   background-image: url(./assets/images/image1.png);  
-  text-align:center ;
-  color: white; 
-  margin-top: 0;
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
-  height: 84vh;
+  height: 90vh;
+
 }
-#homepage-intro{
-  padding-top: 180px;
+#homepage h1{
+padding-top: 140px;
+letter-spacing: 2px;
+font-size: 60px;
+font-style: italic;
+text-align: center;
+color: aliceblue;
 }
-h1{
-  font-size: 60px;
-  font-style: italic;
-  letter-spacing: 2px;
-  color: antiquewhite;
-}
-h3{
+
+#homepage h4{
   font-size: 30px;
   font-style: italic;
   letter-spacing: 1px;
   color: antiquewhite;
+  text-align: center;
+  }
+
+#about-us h2{
+  height:30vh;
+  background-image: url(./assets/images/3.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  padding-top: 20vh; 
+  text-align: center;
+  color:white;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-style: italic;
 }
 
-#aboutus h2{
-  padding-top: 50px; 
+#about-us p{
+  padding-top: 10vh; 
   text-align: center;
-  color: black;
+  color:whitesmoke;
   letter-spacing: 2px;
+  font-size: 18px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #0a0b10;
+  height:50vh;
+  line-height: 4vh;
 }
-#aboutus p{
-  text-align: center;
-  color: black;
-  letter-spacing: 1px;
-  font-size: 20px;
-}
-#about-images{
-  padding-top: 100px;
-}
+
 /* contact */
 #contact{
   padding-top: 10px;
   text-align: center;
   background-image: url(./assets/images/image6.jpg); 
-  height: 83vh;
+  height: 90vh;
   width: 100%;
   color: white;
   letter-spacing: 1.5px;
@@ -90,14 +101,6 @@ color:white
 #contact-request form{
   letter-spacing: 1.5px;
   font-size: 20px;
-}
-footer{
-  padding: 1px;
-  font-size: large;
-  letter-spacing: 1px;
-  background-color: black;
-  color: white;
-  line-height:30px ;
 }
 
 /* recipes */
