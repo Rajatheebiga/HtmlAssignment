@@ -97,13 +97,49 @@ color: aliceblue;
   background-position: center;
   height: 100vh;
   width: 100%;
-  color: white;
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
 }
 
 .recipes-box{
-  background-color: aqua;
-  margin-top: 25vh;
+  width: 85%;
+  margin: 20px auto;
+  padding: 5px; 
+  margin-top: 10vh;
 }
+
+.recipes-box h1{
+ text-align: center;
+ padding: 0 20px;
+ letter-spacing: 2px;
+}
+.recipes-box-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin:15vh 0;
+
+
+}
+
+ .menu-box{
+   flex:1;
+   border: 1px solid black;
+   border-radius: 2x;
+   margin:2px;
+   padding:10px;
+   background-color: #14141f;
+   letter-spacing: 2px;
+   align-items: center;
+   text-align: center;
+   height: 30vh;
+ }
+ .menu-box img{
+   border-radius: 45px;
+ }
+
+
 /* contact */
 .contact{
   background-image: url(./assets/images/contact.jpg); 
