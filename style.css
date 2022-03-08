@@ -89,6 +89,21 @@ color: aliceblue;
  
 }  
 
+/* recipes */
+.recipes{
+  background-image: url(./assets/images/re1.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+.recipes-box{
+  background-color: aqua;
+  margin-top: 25vh;
+}
 /* contact */
 .contact{
   background-image: url(./assets/images/contact.jpg); 
@@ -122,7 +137,7 @@ font-size: 20px;
   }
 
 /* recipes */
-#recipes h4{
+/* #recipes h4{
   font-style: italic;
   color: #140a00;
 
@@ -133,7 +148,7 @@ font-size: 20px;
   letter-spacing: 2px;
   text-align: center;
 
-}
+} */
 
 hr{
   width:50%;
