@@ -16,10 +16,11 @@ nav{
   justify-content: space-between;
 }
 
-#logo{
+#logo a{
   display: flex;
   align-items: center;
-  margin: 50px;
+  padding: 10px;
+  text-decoration: none;
 }
 #logo p{
 color: white;
@@ -86,13 +87,13 @@ color: aliceblue;
   text-align: center;
   }
 
+  /* about us page */
 .about-us{
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
   background-image: url(./assets/images/kit1.jpg); 
   height:100vh;
-  /* opacity: 0.1; */
 }
 
 .about-us h2{
@@ -151,8 +152,6 @@ color: aliceblue;
 }
  
 .menu-box{
-  position:relative;
-  justify-content: space-around;
   width:200px;
   height:300px;
   padding:40px;
