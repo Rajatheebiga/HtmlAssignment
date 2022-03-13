@@ -230,52 +230,43 @@ nav{
 .contact {
   background-image: url(./assets/images/contact.jpg);
   height: 100vh;
-  width: 100%;
-  color: white;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.14fr 1fr 0.2fr;
+  grid-row-gap: 0.1vh;
+  grid-column-gap: 0.1vw;
+  grid-template-areas:
+    "nav nav"
+    "c1 c2"
+    "footer footer";
 }
 
-.contact h2 {
-  padding-top: 10px;
-  text-align: center;
+.contact-group {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ grid-area: c1;
+ color: aquamarine;
+ border: 1px solid wheat;
 }
 
-#contact-group {
+.contact-request {
   text-align: center;
-}
-
-#contact-request {
-  text-align: center;
-  margin: 15px;
+  padding-top: 3%;
   letter-spacing: 1.5px;
-  color: white;
+  color:white;
   font-size: 20px;
-  display: block;
+  grid-area: c2;
+  border: 1px solid white;
 }
 
 #contact-icon img {
-  border-radius: 20px;
+  border-radius: 40px;
   padding: 10px;
 }
 
-.page-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-hr {
-  width: 50%;
-  margin: auto;
-  text-align: center;
-}
-.footer-content {
-  color: rgb(249, 250, 252);
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 2px;
-  font-size: 15px;
-  align-self: flex-start;
-  text-shadow: 2px 10px 2px rgb(34, 2, 2);
-}
 button {
   height: 40px;
   width: 100px;
