@@ -292,10 +292,11 @@ nav{
  display: flex;
  flex-direction: column;
  justify-content: center;
- align-items: center;
+ text-align: center;
  grid-area: c1;
  color: aquamarine;
  border: 1px solid wheat;
+ color: aliceblue;
 }
 
 .contact-request {
