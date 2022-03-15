@@ -6,8 +6,7 @@ font-family: 'Roboto Slab', serif; */
   margin: 0;
   padding: 0;
 }
-/* nav bar */
-
+/* logo */
 #logo {
   display: flex;
   margin-left: 1%;
@@ -18,7 +17,6 @@ font-family: 'Roboto Slab', serif; */
   align-items: center;
   text-decoration: none;
 }
-/* logo */
 #logo img {
   border: 1px solid aquamarine;
   border-radius: 30px;
@@ -44,7 +42,7 @@ font-family: 'Roboto Slab', serif; */
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
 }
 
 .nav-list > li > a {
@@ -52,6 +50,11 @@ font-family: 'Roboto Slab', serif; */
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
   color: aqua;
+}
+
+nav a:hover{
+  color:white;
+  text-decoration:underline;
 }
 
 header {
@@ -79,38 +82,36 @@ header {
     "c1"
     "c2"
     "footer";
-
 }
 .contact-group {
- grid-area: c1;
- display: flex;
- flex-direction: column;
- justify-content: center;
- text-align: center;
- grid-area: c1;
- border: 0.3px solid palegreen;
- font-size: 0.7rem;
- padding:1%;
+  grid-area: c1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  grid-area: c1;
+  border: 0.3px solid palegreen;
+  font-size: 0.7rem;
+  padding: 1%;
 }
-.contact-icon img{
-    width: 20px;
-    height:20px;
-    /* padding-right: 2%; */
-    padding-top: 2%;
+.contact-icon img {
+  width: 20px;
+  height: 20px;
+  /* padding-right: 2%; */
+  padding-top: 2%;
 }
 .contact-request {
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-letter-spacing: 1.5px;
-grid-area: c2;
-border: 1px solid white;
-font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1.5px;
+  grid-area: c2;
+  border: 1px solid white;
+  font-size: 0.8rem;
 }
-.contact-request p{
-    font-size: 1rem;
-
+.contact-request p {
+  font-size: 1rem;
 }
 
 .footer {
@@ -127,16 +128,24 @@ font-size: 0.8rem;
 }
 
 button {
-    height:35px;
-    width: 80px;
-    border-radius: 10px;
-    color: white;
-    background-color:  #00b38f;
-    font-size: medium;
-    align-self: center;
-    margin: 1%;
-  }  
-/* 
+  height: 35px;
+  width: 80px;
+  border-radius: 10px;
+  color: white;
+  background-color: #00b38f;
+  font-size: medium;
+  align-self: center;
+  margin: 1%;
+}
+/*   hide logo in mobile */
+@media only screen and (max-width: 400px){
+  #logo{
+    display:none;
+  }
+  .nav-list{
+  margin:0 auto;
+  }
+  }
 /* 400px tp 800px responsive */
 @media only screen and (min-width: 400px) {
   #logo img {
@@ -144,30 +153,30 @@ button {
     height: 3.2rem;
   }
   .nav-list li {
-    font-size: 1rem;
+    font-size: 0.8rem;
     display: flex;
   }
   .nav-top {
     display: flex;
     justify-content: space-between;
   }
- .contact{
-   color: lightgreen;
- }
-.contact-icon img{
+  .contact {
+    color: lightgreen;
+  }
+  .contact-icon img {
     width: 30px;
-    height:30px;
+    height: 30px;
     padding: 1%;
-}
+  }
   .contact-group {
     font-size: 1.2rem;
   }
   .contact-request p {
     font-size: 1.3rem;
   }
-  .contact-request{
-      font-size:0.9rem;
-    }
+  .contact-request {
+    font-size: 0.9rem;
+  }
   .footer {
     font-size: 0.8rem;
   }
@@ -175,35 +184,35 @@ button {
 
 /* 800px  and above width */
 @media only screen and (min-width: 800px) {
-    #logo img {
-        width: 4rem;
-        height: 4rem;
-      }
-      .nav-list li{
-        font-size: 1.1rem;
-      }
-    .nav-top {
-      display: flex;
-      justify-content: space-between;
-    }
-    .contact{
-      color: white;
-    }
-  .contact-icon img{
-      width: 40px;
-      height:40px;
-      padding: 1%;
+  #logo img {
+    width: 4rem;
+    height: 4rem;
   }
-    .contact-group {
-      font-size: 1.3rem;
-    }
-    .contact-request p {
-      font-size: 1.3rem;
-    }
-    .contact-request{
-        font-size: 1.2rem;
-      }
-    .footer {
-      font-size: 1rem;
-    }
+  .nav-list li {
+    font-size: 1rem;
   }
+  .nav-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact {
+    color: white;
+  }
+  .contact-icon img {
+    width: 40px;
+    height: 40px;
+    padding: 1%;
+  }
+  .contact-group {
+    font-size: 1.3rem;
+  }
+  .contact-request p {
+    font-size: 1.3rem;
+  }
+  .contact-request {
+    font-size: 1.2rem;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+}
