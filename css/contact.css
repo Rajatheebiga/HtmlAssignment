@@ -69,6 +69,7 @@ header {
   display: grid;
   height: 100vh;
   width: 100vw;
+  color: pink;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1.2fr 5.8fr 1fr;
   grid-row-gap: 0.1vh;
@@ -78,6 +79,7 @@ header {
     "c1"
     "c2"
     "footer";
+
 }
 .contact-group {
  grid-area: c1;
@@ -87,7 +89,6 @@ header {
  text-align: center;
  grid-area: c1;
  border: 0.3px solid palegreen;
- color: aliceblue;
  font-size: 0.7rem;
  padding:1%;
 }
@@ -103,7 +104,6 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 letter-spacing: 1.5px;
-color:white;
 grid-area: c2;
 border: 1px solid white;
 font-size: 0.8rem;
@@ -151,7 +151,9 @@ button {
     display: flex;
     justify-content: space-between;
   }
- 
+ .contact{
+   color: lightgreen;
+ }
 .contact-icon img{
     width: 30px;
     height:30px;
@@ -167,7 +169,7 @@ button {
       font-size:0.9rem;
     }
   .footer {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -184,22 +186,24 @@ button {
       display: flex;
       justify-content: space-between;
     }
-  
+    .contact{
+      color: white;
+    }
   .contact-icon img{
       width: 40px;
       height:40px;
       padding: 1%;
   }
     .contact-group {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
     }
     .contact-request p {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
     .contact-request{
-        font-size: 1.1rem;
+        font-size: 1.5rem;
       }
     .footer {
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
   }
